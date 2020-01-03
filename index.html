@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>OD Guitar Modeler</h1>
+
+    <form class="modeler-form">
+        <h3>Body Shape:</h3>
+        <label for="asteria">
+            <input type="radio" name="body-shape" id="asteria" value="asteria" onclick="bodyShapeSelected()" checked>
+            Asteria
+        </label>
+        
+        <label for="cybele">
+            <input type="radio" name="body-shape" id="cybele" value="cybele" onclick="bodyShapeSelected()">
+            Cybele
+        </label>
+        
+        <h3>Fretboarf type:</h3>
+        <label for="parallel">
+            <input type="radio" name="fretboard-shape" id="parallel" value="parallel" onclick="fretboardShapeSelected()">
+            Parallel frets
+        </label>
+        
+        <label for="slanted">
+            <input type="radio" name="fretboard-shape" id="slanted" value="slanted" onclick="fretboardShapeSelected()" checked>
+            Slanted frets
+        </label>
+        
+        <h3>Headstock shape:</h3>
+        <label for="minerva">
+            <input type="radio" name="headstock-shape" id="minerva" value="minerva" onclick="headstockShapeSelected()">
+            Minerva
+        </label>
+
+        <label for="rhea">
+            <input type="radio" name="headstock-shape" id="rhea" value="rhea" onclick="headstockShapeSelected()" checked>
+            Rhea
+        </label>
+    </form>
+
+    <div class="modeler-display">
+        <section class="guitar-body-section">
+            <img src="./imgs/bodies/Asteria.PNG" class="asteria body-shape">
+            <img src="./imgs/bodies/Cybele.PNG" class="cybele body-shape hide">
+            <img src="./imgs/woods/wenge.jpg" class="wemge wood hide">
+        </section>
+        <section class="guitar-neck-section">
+            <img src="./imgs/fretboards/7s .PNG" class="parallel fretboard-shape hide">
+            <img src="./imgs/fretboards/7s multiscale.PNG" class="slanted fretboard-shape">
+        </section>
+        <section class="guitar-head-section">
+            <img src="./imgs/headstocks/Minerva Headless 7s.PNG" class="minerva headstock-shape hide">
+            <img src="./imgs/headstocks/Rhea Headstcok 7s.PNG" class="rhea headstock-shape">
+        </section>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>

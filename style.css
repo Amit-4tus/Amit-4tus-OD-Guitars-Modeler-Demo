@@ -1,0 +1,89 @@
+.hide {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.modeler-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modeler-display {
+    width: 80vw;
+    height: 35vw;
+    display: flex;
+    border: 1px solid black;
+    margin: 3% auto;
+}
+
+.guitar-body-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: .5%;
+}
+
+.asteria.body-shape {
+    width: 95%;
+    position: relative;
+    left: 15%;
+}
+
+.cybele.body-shape {
+    width: 85%;
+    position: relative;
+    left: 3%;
+}
+
+.wood {
+    height: 55.03%;
+    z-index: -1;
+    position: absolute;
+    /* left: 0%; */
+}
+
+.guitar-neck-section {
+    width: 50%;
+    height: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 14%;
+}
+
+.parallel.fretboard-shape {
+    width: 100%;
+}
+
+.slanted.fretboard-shape {
+    width: 100%;
+}
+
+.guitar-head-section {
+    width: 30%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 15.2%;
+}
+
+.minerva.headstock-shape {
+    width: 22%;
+    position: relative;
+    top: .2%;
+}
+
+.rhea.headstock-shape {
+    width: 75%;
+    position: relative;
+    top: .6%;
+}
