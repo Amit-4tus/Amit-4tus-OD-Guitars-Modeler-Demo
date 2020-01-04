@@ -41,11 +41,14 @@ body {
     left: 3%;
 }
 
-.wood {
-    height: 55.03%;
-    z-index: -1;
-    position: absolute;
-    /* left: 0%; */
+.wenge {
+    background-image: url(./imgs/woods/wenge.jpg);
+    background-position: center;
+}
+
+.flame-maple {
+    background-image: url(./imgs/woods/flame\ maple.jpg);
+    background-position: center;
 }
 
 .guitar-neck-section {
