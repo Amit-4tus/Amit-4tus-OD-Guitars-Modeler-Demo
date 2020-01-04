@@ -44,11 +44,13 @@ body {
 .wenge {
     background-image: url(./imgs/woods/wenge.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .flame-maple {
     background-image: url(./imgs/woods/flame\ maple.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .guitar-neck-section {
